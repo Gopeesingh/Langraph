@@ -1,0 +1,6 @@
+set up:-
+1:- python -m venv venv
+2:- venv\Scripts\activate
+
+3:- pip install langchain langchain_community langchain-google-genai python-dotenv
+
