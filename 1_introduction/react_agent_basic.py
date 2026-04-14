@@ -27,7 +27,7 @@
  langchain_google_genai import ChatGoogleGenerativeAI
  from dotenv import load_dotenv
  from langchain.agents import initialize_agent, tool
- from langchain_community.tools import TavilySearchResults
+ from langchain_community.tools import TavilySearchResults # (TavilySearchResults ) Tool for web search
  import datetime
 
  load_dotenv()
